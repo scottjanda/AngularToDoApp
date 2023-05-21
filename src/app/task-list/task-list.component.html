@@ -1,0 +1,12 @@
+<h1 class="page-title">Angular To-Do App</h1>
+
+
+
+<div class="article-container border" *ngFor="let item of todo">
+
+    <h2>{{item.task}}</h2>
+    <p>Completed: {{item.completed}}</p>
+    <button *ngIf="item.completed == false" (click) = "completeTask(item.id)">Complete</button>
+
+
+</div>

@@ -1,0 +1,50 @@
+/* html, body {
+    margin: 0; 
+    padding: 0;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+}
+
+h1, h2, h3, h4, h5, h5, button { 
+    font-family:'OpenSans';
+    font-weight: 300;
+}
+
+p, table, label, input {
+    font-family: 'OpenSans';
+}
+
+table {
+    text-align: left;
+}
+
+th, td {
+    padding: 0.3rem 1rem;
+}
+
+tr:nth-child(n) {
+    background-color: rgba(230,150,150,0.2);
+}
+
+button {
+    margin: 1rem 0;
+    padding: 0.5rem;
+} */
+
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+  }
+  
+  .icons {
+    /* Assuming you have an element with class "icons" where you want to use Font Awesome or Material Icons */
+    font-family: 'Font Awesome', 'Material Icons', sans-serif;
+  }
+  
+  .box {
+    /* Assuming you have an element with class "box" where you want to apply the box-shadow */
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  }
